@@ -28,3 +28,25 @@ Educational testing in a virtual lab. Scan only systems for which you have autho
 
 ## Limitations
 Results reflect the lab configuration at the time of testing. Unresolved observations are documented without assuming unverified causes.
+
+## Evidence Screenshots
+
+### Host Discovery
+![Host Discovery](evidence/host-discovery.png)
+
+### HTTP Service Enumeration
+![HTTP Enumeration](evidence/http-enumeration.png)
+
+### DNS Packet Capture
+![DNS Traffic Capture](evidence/dns-traffic.png)
+
+## Evidence Screenshots
+
+### Host Discovery
+![Host Discovery](evidence/host-discovery.png)
+
+### HTTP Service Enumeration
+![HTTP Enumeration](evidence/http-enumeration.png)
+
+### DNS Packet Capture
+![DNS Traffic Capture](evidence/dns-traffic.png)

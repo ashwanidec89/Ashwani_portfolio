@@ -16,6 +16,9 @@ Discover responsive hosts, identify TCP services, and inspect HTTP behavior in a
 3. Enumerate HTTP methods.
 4. Inspect HTTP response headers.
 5. Scan TCP ports 1–1000 and record the observed result.
+6. Query DNS A and MX records and document the responses.
+7. Capture DNS request and response traffic for inspection.
+8. Document the active IPv4 network and calculate /26 subnets.
 
 ## 4. Results
 
@@ -83,7 +86,7 @@ Nmap received no response for TCP ports 1–1000 during the recorded scan.
 - The Python HTTP server was used for lab testing, not as a production deployment recommendation.
 
 ## 7. Conclusion
-The exercise covered host discovery, HTTP service identification, method enumeration, response-header inspection, and TCP port scanning. Findings are documented as observations, with unresolved results identified for follow-up.
+The exercise covered host discovery, TCP port scanning, HTTP service identification and method enumeration, response-header inspection, DNS A and MX lookups, DNS packet capture, and IPv4 subnetting. Findings are documented as observations, with unresolved results identified for follow-up.
 
 ## 8. Evidence Files
 - `scans/host-discovery.txt`
@@ -95,7 +98,6 @@ The exercise covered host discovery, HTTP service identification, method enumera
 - `scans/dns-traffic.pcap`
 - `scans/subnetting-basics.txt`
 
-- `scans/tcp-targeted-check.txt`
 
 ## 9. DNS Enumeration
 
