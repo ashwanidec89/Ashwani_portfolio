@@ -1,0 +1,27 @@
+Subnetting Practical: /24 vs /26
+
+Current Network: 172.16.19.0/24
+Subnet Mask: 255.255.255.0
+Network Address: 172.16.19.0
+Broadcast Address: 172.16.19.255
+Total Addresses: 256
+Usable Hosts: 254
+Usable Host Range: 172.16.19.1 - 172.16.19.254
+
+Subnet 1: 172.16.19.0/26
+Host Range: 172.16.19.1 - 172.16.19.62
+Broadcast: 172.16.19.63
+
+Subnet 2: 172.16.19.64/26
+Host Range: 172.16.19.65 - 172.16.19.126
+Broadcast: 172.16.19.127
+
+Subnet 3: 172.16.19.128/26
+Host Range: 172.16.19.129 - 172.16.19.190
+Broadcast: 172.16.19.191
+
+Subnet 4: 172.16.19.192/26
+Host Range: 172.16.19.193 - 172.16.19.254
+Broadcast: 172.16.19.255
+
+Each /26 subnet has 64 total addresses and 62 usable host addresses.

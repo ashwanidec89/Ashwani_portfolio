@@ -1,0 +1,11 @@
+# Nmap 7.99 scan initiated Mon Oct 12 23:54:07 2026 as: /usr/lib/nmap/nmap --privileged -sT -Pn -p 22,80,443,8000 -oN scans/tcp-targeted-check.txt 172.16.19.128
+Nmap scan report for 172.16.19.128
+Host is up (0.00017s latency).
+
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+80/tcp   closed http
+443/tcp  closed https
+8000/tcp open   http-alt
+
+# Nmap done at Mon Oct 12 23:54:08 2026 -- 1 IP address (1 host up) scanned in 0.53 seconds

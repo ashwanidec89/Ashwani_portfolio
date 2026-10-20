@@ -1,0 +1,7 @@
+# Nmap 7.99 scan initiated Mon Oct 12 23:46:17 2026 as: /usr/lib/nmap/nmap --privileged -sS -p 1-1000 -oN scans/tcp-port-scan.txt 172.16.19.128
+Nmap scan report for 172.16.19.128
+Host is up.
+All 1000 scanned ports on 172.16.19.128 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+# Nmap done at Mon Oct 12 23:49:39 2026 -- 1 IP address (1 host up) scanned in 201.95 seconds
