@@ -19,6 +19,7 @@ Discover responsive hosts, identify TCP services, and inspect HTTP behavior in a
 6. Query DNS A and MX records and document the responses.
 7. Capture DNS request and response traffic for inspection.
 8. Document the active IPv4 network and calculate /26 subnets.
+9. Perform service/version detection, OS fingerprinting, default NSE script checks, and a targeted UDP DNS-port scan.
 
 ## 4. Results
 
@@ -161,3 +162,26 @@ The /24 network can be divided into four /26 subnets. Each /26 subnet contains 6
 
 ### Notes
 These are subnetting calculations for learning and documentation. The active VMware network configuration was not changed.
+
+
+## 12. Advanced Nmap Enumeration
+
+### Service and Version Detection
+A targeted scan of `172.16.19.128` on TCP port 8000 identified `SimpleHTTPServer 0.6 (Python 3.13.12)`.
+
+Evidence: `scans/service-version-detection.txt`
+
+### OS Detection
+Nmap returned possible Linux OS guesses but warned that fingerprinting may be unreliable because it could not find both an open and a closed TCP port. The operating system was not conclusively identified.
+
+Evidence: `scans/os-detection.txt`
+
+### Default NSE Script Checks
+The targeted `-sC -sV -p 8000` scan identified the HTTP title as `Security Research Lab` and the server header as `SimpleHTTP/0.6 Python/3.13.12`. These observations do not, by themselves, establish a vulnerability.
+
+Evidence: `scans/default-scripts.txt`
+
+### UDP DNS Port Scan
+A targeted UDP scan of port 53 on the lab resolver `172.16.19.2` reported `53/udp open domain`. This confirms DNS service reachability on that UDP port during the check.
+
+Evidence: `scans/udp-dns-scan.txt`

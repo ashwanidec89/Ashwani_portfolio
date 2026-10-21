@@ -1,0 +1,13 @@
+# Nmap 7.99 scan initiated Wed Oct 21 03:38:55 2026 as: /usr/lib/nmap/nmap -O -Pn -oN scans/os-detection.txt 172.16.19.128
+Nmap scan report for 172.16.19.128
+Host is up (0.00012s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+8000/tcp open  http-alt
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 5.0 - 6.2 (96%), HP P2000 G3 NAS device (92%), Linux 3.7 - 4.19 (91%), Linux 2.6.32 (91%), Linux 3.8 - 3.9 (91%), Linux 6.17 (91%), Linux 4.10 (91%), Linux 5.14 (90%), Android 7.0 (Linux 3.18) (90%), Linux 4.1 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 21 03:41:47 2026 -- 1 IP address (1 host up) scanned in 172.21 seconds

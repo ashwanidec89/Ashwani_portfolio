@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Wed Oct 21 03:33:50 2026 as: /usr/lib/nmap/nmap --privileged -sV -p 8000 -oN scans/service-version-detection.txt 172.16.19.128
+Nmap scan report for 172.16.19.128
+Host is up (0.000098s latency).
+
+PORT     STATE SERVICE VERSION
+8000/tcp open  http    SimpleHTTPServer 0.6 (Python 3.13.12)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 21 03:33:57 2026 -- 1 IP address (1 host up) scanned in 6.70 seconds

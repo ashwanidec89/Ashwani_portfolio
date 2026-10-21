@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Wed Oct 21 05:18:16 2026 as: /usr/lib/nmap/nmap -sU -p 53 -oN scans/udp-dns-scan.txt 172.16.19.2
+Nmap scan report for 172.16.19.2
+Host is up (0.0022s latency).
+
+PORT   STATE SERVICE
+53/udp open  domain
+MAC Address: 00:50:56:E1:0E:DF (VMware)
+
+# Nmap done at Wed Oct 21 05:18:16 2026 -- 1 IP address (1 host up) scanned in 0.70 seconds

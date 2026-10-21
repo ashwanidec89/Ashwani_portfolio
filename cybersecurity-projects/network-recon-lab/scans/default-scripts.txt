@@ -1,0 +1,11 @@
+# Nmap 7.99 scan initiated Wed Oct 21 03:56:58 2026 as: /usr/lib/nmap/nmap --privileged -sC -sV -p 8000 -oN scans/default-scripts.txt 172.16.19.128
+Nmap scan report for 172.16.19.128
+Host is up (0.00052s latency).
+
+PORT     STATE SERVICE VERSION
+8000/tcp open  http    SimpleHTTPServer 0.6 (Python 3.13.12)
+|_http-title: Security Research Lab
+|_http-server-header: SimpleHTTP/0.6 Python/3.13.12
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 21 03:57:05 2026 -- 1 IP address (1 host up) scanned in 6.76 seconds
