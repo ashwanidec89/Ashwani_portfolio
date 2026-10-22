@@ -20,7 +20,7 @@ A hands-on networking and reconnaissance lab covering host discovery, TCP port s
 - Tools: Nmap, curl, dig, tcpdump, Linux networking utilities
 
 ## Evidence
-See the `scans/` directory for scan outputs, DNS evidence, subnetting calculations, service/version detection, OS fingerprinting, default NSE script checks, and UDP DNS scanning.
+See `scans/` for scan outputs, DNS records, packet capture, subnetting calculations, service/version detection, OS fingerprinting, default NSE script checks, and UDP DNS scanning. The `evidence/` directory contains screenshots of host discovery, HTTP enumeration, and DNS packet capture.
 
 ## Report
 See [Reconnaissance Report](reports/reconnaissance-report.md).

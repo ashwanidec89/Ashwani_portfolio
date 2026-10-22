@@ -98,6 +98,10 @@ The exercise covered host discovery, TCP port scanning, HTTP service identificat
 - `scans/dns-enumeration.txt`
 - `scans/dns-traffic.pcap`
 - `scans/subnetting-basics.txt`
+- `scans/service-version-detection.txt`
+- `scans/os-detection.txt`
+- `scans/default-scripts.txt`
+- `scans/udp-dns-scan.txt`
 
 
 ## 9. DNS Enumeration
@@ -159,6 +163,10 @@ The /24 network can be divided into four /26 subnets. Each /26 subnet contains 6
 
 ### Evidence
 - `scans/subnetting-basics.txt`
+- `scans/service-version-detection.txt`
+- `scans/os-detection.txt`
+- `scans/default-scripts.txt`
+- `scans/udp-dns-scan.txt`
 
 ### Notes
 These are subnetting calculations for learning and documentation. The active VMware network configuration was not changed.
